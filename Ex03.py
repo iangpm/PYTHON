@@ -1,3 +1,8 @@
-num = float(input('Insira um número: '))
-exp = ((((num + 1357) * 8) / 5) ** 2)
-print(exp)
+#Exercício 3
+numeroa = float(input('Insira um valor: '))
+numerob = float(input('Insira outro valor: '))
+
+if numeroa > numerob:
+    print(numeroa)
+if numerob > numeroa:
+    print(numerob)

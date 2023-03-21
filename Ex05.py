@@ -1,5 +1,12 @@
-soma = 6 + 2
-subt = 13 - 5
-multip = 2 * 4
-div = 128 / 16
-print(soma, subt, multip, div)
+#Exercício 5
+num_conta = int(input('Insira o número da sua conta: '))
+saldo = float(input('Insira seu saldo: R$'))
+debito = float(input('Insira seu débito: R$'))
+credito = float(input('Insira seu crédito: R$'))
+
+saldoa = saldo - debito + credito
+print('Seu saldo atual é R${}'.format(saldoa))
+if saldoa >= 0:
+    print('Saldo Positivo')
+else:
+    print('Saldo negativo')
