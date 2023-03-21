@@ -5,4 +5,6 @@ media = (nota1 + nota2) / 2
 
 if media >= 6:
     print('Você foi aprovado!')
+else:
+    print('Você não foi aprovado!')
     print(media)
